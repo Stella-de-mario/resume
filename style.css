@@ -1,0 +1,224 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+/* main section */
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px;
+}
+.main-contant-section {
+  padding: 100px 90px;
+}
+/* about me section */
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.about-my-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+  margin: 20px 0 25px 0;
+}
+.about-me {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin: 25px 0 40px 0;
+  width: 400px;
+}
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+/* my projects section */
+.my-projects-container {
+  margin: 0 0 50px 0;
+}
+.projects-list {
+  padding: 0 0 0 17px;
+}
+.projects-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+.projects-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+.projects-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 10px;
+}
+.projects-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* work experience section */
+.my-work-experience-container {
+  margin: 0 0 40px 0;
+}
+.work-experience-section {
+  margin: 0 0 20px 0;
+}
+.work-name-company {
+  color: #fb6d3a;
+}
+.work-experience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.work-experience-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.work-experience-list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 15px;
+}
+/* education section */
+.education-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin: 0 0 10px 0;
+}
+.education-prof {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+.education-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+/*  sidebar section */
+.sidebar-section {
+  background: #0f2e5e;
+  width: 370px;
+  padding-top: 40px;
+}
+.contact-section,
+.techskills-section {
+  margin: 50px 0 0 40px;
+}
+.sidebar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+/* contacts section */
+.contact-section-type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 5px;
+  color: #fff;
+}
+.contact-section-link {
+  color: rgb(222, 228, 231);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-section-link__social-icon {
+  height: 16px;
+  width: 16px;
+  vertical-align: text-top;
+  margin: 0 10px 0 0;
+}
+
+/* techskills list */
+.techskills-list {
+  padding: 0 0 0 17px;
+}
+.techskills-item {
+  color: #fb6d3a;
+}
+.techskills-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+/* softskills list */
+.softskills-section {
+  padding-left: 40px;
+}
+.softskills-list {
+  padding: 0 0 0 17px;
+}
+.softskills-item {
+  color: #fb6d3a;
+}
+.softskills-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.opacity {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.opacity:hover {
+  opacity: 0.5;
+}
